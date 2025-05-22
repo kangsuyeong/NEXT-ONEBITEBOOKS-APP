@@ -1,6 +1,13 @@
 .container {
   display: flex;
   flex-direction: column;
+  gap: 50px;
+}
+
+/* > 기호는 CSS 선택자에서 자식 선택자 */
+.container > section {
+  display: flex;
+  flex-direction: column;
   gap: 10px;
 }
 
